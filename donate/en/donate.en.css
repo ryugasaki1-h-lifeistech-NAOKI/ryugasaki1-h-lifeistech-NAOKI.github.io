@@ -188,6 +188,16 @@ div.animation_box3 {
     margin-right: 6%;
 }
 
+.karamu-mini{
+    display: flex;}
+
+.karamu-mini-1{
+    margin-left: 14%;
+}
+
+.karamu-mini-1,.karamu-mini-3{
+    margin-top: 14px;
+}
 
 /*固定背景の設定*/
 .cd-fixed-bg {
