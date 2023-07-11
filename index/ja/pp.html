@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="pp.ja.css">
+        <title>index.ja</title>
+        <link rel="icon" href="../images/minnanoouchi_logo_L.ico">
+        <link rel="apple-touch-icon" href="../images/minnanoouchi_logo_L.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            jQuery(function() {
+        var pagetop = $('#page_top');   
+        pagetop.hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+                pagetop.fadeIn();
+            } else {
+                pagetop.fadeOut();
+            }
+        });
+      $('a[href^="#"]').click(function(){
+        var time = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" ? 'html' : href);
+        var distance = target.offset().top;
+        $("html, body").animate({scrollTop:distance}, time, "swing");
+        return false;
+      });
+    });
+    
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="../images/minnanoouchi_plate.png" class="top-top">
+            <ul class="top-list">
+                <li class="top-list-item-1"><a href="../../index/ja/index.ja.html" class="t-m">　ホーム　</a></li>
+                <li class="top-list-item"><a href="../../event/ja/event.ja.html" class="t-m">　イベント　</a></li>
+                <li class="top-list-item"><a href="../../gallery/ja/gallery.ja.html" class="t-m">　ギャラリー　</a></li>
+                <li class="top-list-item"><a href="../../location/ja/location.ja.html" class="t-m">　活動場所　</a></li>
+                <li class="top-list-item"><a href="../../donate/ja/donate.ja.html" class="t-m">　寄付　</a></li>
+                <li class="top-list-item" style="margin-right: 10px;"><a href="../../about/ja/about.ja.html" class="t-m">　私達について　</a></li>
+                <a><b>┃</b></a>
+                <li class="top-list-item-1" style="margin-left: 10px;"><a href="../../index/ja/index.ja.html" class="t-m">JA</a></li>
+                <a>/</a>
+                <li class="top-list-item"><a href="../../index/en/index.en.html" class="t-m">EN</a></li>
+                <a>/</a>
+                <li class="top-list-item"><a href="../../index/cn/index.cn.html" class="t-m">CN</a></li>
+                <a>/</a>
+                <li class="top-list-item"><a href="../../index/kr/index.kr.html" class="t-m">KR</a></li>
+            </ul>
+        </header>
+        <div id="page_top"><a href="#"></a></div>
+        <main class="cd-fixed-bg main1">
+            <div style="background-color: rgba(0, 0, 0, 0.6);">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="h-title">test</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+        </main>
+        <main style="background-color: rgb(255, 225, 118);">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </main>
+        <main class="cd-fixed-bg main2">
+            <br>
+            <br>
+            <br>
+            <h1 class="h-title">index.ja</h1>
+            <br>
+            <br>
+            <br>
+            <label class="open" for="pop-up">ポップアップを表示する</label>
+            <input type="checkbox" id="pop-up">
+            <div class="overlay">
+                <div class="window">
+                    <label class="close" for="pop-up">×</label>
+                    <p class="text">ポップアップの中身が入ります</p>
+                </div>
+            </div>    
+            <br>
+            <!--コンテンツ01-->
+<div class="area">
+    <p>【CSS】でスクロール時に背景画像が切り替わるパララックス</p>
+    <h2>SHU BLOG</h2>   
+  </div>
+  
+  <!--固定背景01-->
+  <div class="cd-fixed-bg cd-bg-1">固定背景1</div>
+   
+  <!--コンテンツ02-->
+  <div class="area">
+    <p>【CSS】でスクロール時に背景画像が切り替わるパララックス</p>
+    <h2>background02</h2>   
+  </div>
+  
+  <!--固定背景02-->
+  <div class="cd-fixed-bg cd-bg-2">固定背景2</div>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <br>
+            <ul class="footer-menu">
+                <li><a href="../../index/ja/index.ja.html" class="f-m">ホーム ｜</a></li>
+                <li><a href="../../event/ja/event.ja.html" class="f-m">イベント ｜</a></li>
+                <li><a href="../../gallery/ja/gallery.ja.html" class="f-m">ギャラリー ｜</a></li>
+                <li><a href="../../donate/ja/donate.ja.html" class="f-m">寄付 ｜</a></li>
+                <li><a href="../../about/ja/about.ja.html" class="f-m">私達について</a></li>
+            </ul>
+            <p class="footer-spece">　</p>
+            <p class="Copyright">© 2023 みんなのおうち(Minna No Ouchi)</p>
+        </footer>
+        <div id="page_top"><a href="#"></a></div>
+    </body>
+</html>
