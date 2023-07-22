@@ -184,3 +184,11 @@ a.btn-c:before{
     color: #6e4d00;
     border-radius: 0.5rem;
     font-family: 'Noto Serif KR', serif;}
+
+.karamu-share{
+    display: inline;
+}
+
+.share-icon{
+    width: 50px;
+}
