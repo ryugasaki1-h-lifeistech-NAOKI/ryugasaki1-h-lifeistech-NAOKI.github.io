@@ -125,7 +125,8 @@ footer .footer-spece{
 .main-title-1{
     font-size: 24px;
     color: #6e4d00;
-    text-align: center;}
+    text-align: center;
+    font-family: 'SimSun','sans-serif';}
 
 /*404の写真*/
 .picture-404{
@@ -181,4 +182,5 @@ a.btn-c:before{
     text-decoration: none;
     letter-spacing: 0.1em;
     color: #6e4d00;
-    border-radius: 0.5rem;}
+    border-radius: 0.5rem;
+    font-family: 'SimSun','sans-serif';}

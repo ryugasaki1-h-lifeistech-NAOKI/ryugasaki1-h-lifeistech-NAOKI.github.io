@@ -126,7 +126,7 @@ footer .footer-spece{
     font-size: 24px;
     color: #6e4d00;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: 'Noto Serif KR', serif;}
 
 /*404の写真*/
 .picture-404{
@@ -136,8 +136,7 @@ footer .footer-spece{
 /*トップに戻るボタン*/
 a.btn--top{
     color: #6e4d00;
-    background-color: #ffdb58;
-    font-family: Arial, Helvetica, sans-serif;}
+    background-color: #ffdb58;}
   
 a.btn--top:hover{
     color: #6e4d00;
@@ -183,4 +182,5 @@ a.btn-c:before{
     text-decoration: none;
     letter-spacing: 0.1em;
     color: #6e4d00;
-    border-radius: 0.5rem;}
+    border-radius: 0.5rem;
+    font-family: 'Noto Serif KR', serif;}
