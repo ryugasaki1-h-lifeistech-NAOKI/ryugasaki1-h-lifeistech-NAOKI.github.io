@@ -188,6 +188,17 @@ div.animation_box3 {
     margin-right: 6%;
 }
 
+.karamu-mini{
+    display: flex;}
+
+.karamu-mini-1{
+    margin-left: 10%;
+}
+
+.karamu-mini-1,.karamu-mini-3{
+    margin-top: 14px;
+}
+
 
 /*固定背景の設定*/
 .cd-fixed-bg {
@@ -333,7 +344,8 @@ a.btn-c:before{
     letter-spacing: 0.1em;
     color: #6e4d00;
     border-radius: 0.5rem;
-    border-radius: 100vh;}
+    border-radius: 100vh;
+    font-family: 'Times New Roman', Times, serif;}
 
 /*全て共通：hideエリアをはじめは非表示*/
 .hide-area{
