@@ -199,6 +199,14 @@ div.animation_box3 {
     margin-top: 14px;
 }
 
+.karamu-share{
+    display: inline;
+}
+
+.share-icon{
+    width: 50px;
+}
+
 
 /*固定背景の設定*/
 .cd-fixed-bg {
