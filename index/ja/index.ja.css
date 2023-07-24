@@ -37,7 +37,6 @@ header{
     height: 110px;
     text-align: center;
     background-color: #f1c21e;
-    box-shadow: 0px 0px 30px 0px rgba(11, 176, 226, 0.8);
     font-family: Arial;}  
 
 /*ヘッダーのメニュー*/
@@ -205,6 +204,16 @@ div.animation_box2 {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+
+.karamu-share{
+    display: inline;
+}
+
+.share-icon{
+    width: 50px;
+}
+
 
 .s{
     width: 85%;
