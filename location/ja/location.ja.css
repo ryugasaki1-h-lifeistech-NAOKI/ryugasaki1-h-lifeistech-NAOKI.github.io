@@ -35,8 +35,6 @@ header{
     width: 100%;
     height: 110px;
     text-align: center;
-    background-color: #f1c21e;
-    box-shadow: 0px 0px 30px 0px rgba(11, 176, 226, 0.8);
     font-family: Arial;}  
 
 /*ヘッダーのメニュー*/
@@ -98,16 +96,17 @@ header .top-list-item:hover::before {
 
 /*SDGS色のバー*/
 .sdgs-bar{
-    height: 5%;
-    margin-top: 3px;
+    height: 5.5px;
+    margin-top: 0px;
     padding: 0;
     width: 100%;
-    vertical-align: top;}
+    vertical-align: top;
+    position: fixed;
+    z-index: 100;}
 
 /*フッター全体*/
 footer{
     width: 100%;
-    height: 100px;
     background-color: #f1c21e;
     color: white;
     text-align: center;
@@ -128,51 +127,24 @@ footer .footer-spece{
     font-size: 1px;}
 
 /*ホームタイトル*/
-.main-title-1-1{
-    font-size: 90px;
-    color: #ffffff;
-    font-family: MS Mincho;
-    float: left;
-    margin-left: 6%;
-    text-align: left;}
-
 .main-title-1{
     font-size: 75px;
     color: #ffffff;
     font-family: MS Mincho;
-    float: left;
     bottom: 0;
+    text-align: center;
+    animation: fadein 4s ease-out forwards;
 }
 
-.main-title-2{
-    font-size: 55px;
-    color: #ffffff;
-    font-family: MS Mincho;
-    bottom: 0;
-    text-align: right;
-    margin-right: 6%;
-}
-
-div.animation_box1 {
-  padding: 10px;
-  animation: fadeIn 4s ease 3s 1 normal backwards;
-}
-
-div.animation_box2 {
-    padding: 10px;
-    animation: fadeIn 4s ease 5s 1 normal backwards;
+/* ぼかしから出現 */
+@keyframes fadein {
+    0% {
+       opacity: 0
+    }
+    100% {
+       opacity: 1
+    }
   }
- 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
 /*固定背景の設定*/
 .cd-fixed-bg {
@@ -187,7 +159,7 @@ div.animation_box2 {
 
 /*固定背景1*/
 .cd-fixed-bg.main1  {
-    background-image: url(../images/main1-backgraund.jpg);
+    background-image: url(../images/event_top.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -197,6 +169,14 @@ div.animation_box2 {
     background-image: url(../images/main3-backgraund.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.karamu-share{
+    display: inline;
+}
+
+.share-icon{
+    width: 50px;
 }
 
 
@@ -216,7 +196,7 @@ div.animation_box2 {
 	position: fixed;
 	right: 10px;
 	bottom:30px;
-	z-index: 2;
+	z-index: 100;
     /*はじめは非表示*/
 	opacity: 0;
 	transform: translateY(150px);
