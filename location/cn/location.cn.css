@@ -159,7 +159,14 @@ footer .footer-spece{
 
 /*固定背景1*/
 .cd-fixed-bg.main1  {
-    background-image: url(../images/event_top.jpg);
+    background-image: url(../images/location_top.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*固定背景2*/
+.cd-fixed-bg.main2  {
+    background-image: url(../images/main2-backgraund.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -171,6 +178,45 @@ footer .footer-spece{
     background-repeat: no-repeat;
 }
 
+
+.title-1{
+    font-size: 45px;
+    font-family: 'SimSun','sans-serif';
+    text-align: center;
+}
+
+.title-2{
+    font-size: 30px;
+    font-family: 'SimSun','sans-serif';
+    text-align: center;
+}
+
+.title-3{
+    font-size: 26px;
+    font-family: 'SimSun','sans-serif';
+    text-align: center;
+}
+
+.title-4{
+    font-size: 20px;
+    font-family: 'SimSun','sans-serif';
+    text-align: center;
+}
+
+
+.tell{
+    color: #003164;
+    text-decoration: none;
+}
+
+.map{
+    text-align: center;
+}
+
+
+
+
+
 .karamu-share{
     display: inline;
 }
@@ -181,9 +227,57 @@ footer .footer-spece{
 
 
 
+a.btn--top{
+    color: #6e4d00;
+    background-color: #ffdb58;}
+  
+a.btn--top:hover{
+    color: #6e4d00;
+    background: #ffdb58;}
+  
+a.btn--top.btn--cubic{
+    border-bottom: 5px solid #ffd43b;}
+  
+a.btn--top.btn--cubic:hover{
+    margin-top: 3px;
+    border-bottom: 2px solid #ffd43b;}
+  
+a.btn-c{
+    font-size: 2rem;
+    position: relative;
+    padding: 1.5rem 3rem 1.5rem 2rem;
+    border-radius: 100vh;}
 
+a.btn-c:before{
+    font-size: 1.6rem;
+    line-height: 1;
+    position: absolute;
+    top: calc(50% - .8rem);
+    margin: 0;
+    padding: 0;}
 
-
+.btn,a.btn,button.btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.8rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #6e4d00;
+    border-radius: 0.5rem;
+    border-radius: 100vh;
+    font-family: 'SimSun','sans-serif';}
 
 
 
