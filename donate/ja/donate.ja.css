@@ -338,7 +338,8 @@ a.btn-c:before{
     letter-spacing: 0.1em;
     color: #6e4d00;
     border-radius: 0.5rem;
-    border-radius: 100vh;}
+    border-radius: 100vh;
+    font-family: MS Mincho;}
 
 /*全て共通：hideエリアをはじめは非表示*/
 .hide-area{
