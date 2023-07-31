@@ -206,7 +206,7 @@ div.animation_box2 {
 
 /*固定背景4*/
 .cd-fixed-bg.main4  {
-    background-image: url(../images/main3-backgraund.jpg);
+    background-image: url(../images/contact.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -220,6 +220,23 @@ div.animation_box2 {
     width: 50px;
 }
 
+.karamu{
+    display: flex;
+    margin: 0 10%;
+}
+
+.karamu1{
+    width: 20%;
+}
+
+.karamu2{
+    width: 77%;
+    padding-left: 3%;
+}
+
+.sdgs-icon{
+    width: 100%;
+}
 
 /*アコーディオン全体*/
 .accordion-area{
@@ -320,44 +337,66 @@ div.animation_box2 {
 }
 
 .title-2{
+    font-size: 30px;
+    font-family: 'Noto Serif KR', serif;
+    text-align: left;
+}
+
+.title-3{
+    font-size: 24px;
+    font-family: 'Noto Serif KR', serif;
+    text-align: left;
+}
+
+.title-4{
+    font-size: 20px;
+    font-family: 'Noto Serif KR', serif;
+    text-align: left;
+}
+
+.title-5{
+    font-size: 55px;
+    font-family: 'Noto Serif KR', serif;
+    text-align: left;
+    color: #003164;
+    text-decoration: none;
+}
+
+.title-2-1{
     font-size: 20px;
     font-family: 'Noto Serif KR', serif;
     text-align: center;
 }
 
-.title-3{
+.title-3-1{
     font-size: 33px;
     font-family: 'Noto Serif KR', serif;
     text-align: center;
 }
 
-.title-4{
-    font-size: 30px;
-    font-family: 'Noto Serif KR', serif;
-    text-align: center;
-}
 
-.title-5{
-    font-size: 16px;
-    font-family: 'Noto Serif KR', serif;
-    text-align: center;
-}
-
-.title-6{
-    font-size: 25px;
-    font-family: 'Noto Serif KR', serif;
-    text-align: center;
-}
-
-.title-7{
-    font-size: 55px;
-    font-family: 'Noto Serif KR', serif;
-    text-align: center;
-    color: #003164;
-    text-decoration: none;
+rt{
+    font-size: 15px;
 }
 
 
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+	display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
+}
 
 
 a.btn--top{
@@ -411,8 +450,6 @@ a.btn-c:before{
     border-radius: 0.5rem;
     border-radius: 100vh;
     font-family: 'Noto Serif KR', serif;}
-
-
 
 
 
@@ -624,3 +661,5 @@ a.btn-c:before{
 	height: 75px;
 	background:#eee;
 }
+
+
