@@ -164,9 +164,23 @@ footer .footer-spece{
     background-repeat: no-repeat;
 }
 
+/*固定背景2*/
+.cd-fixed-bg.main2  {
+    background-image: url(../images/main2-backgraund.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 /*固定背景3*/
 .cd-fixed-bg.main3  {
     background-image: url(../images/main3-backgraund.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*固定背景4*/
+.cd-fixed-bg.main4  {
+    background-image: url(../images/main4-backgraund.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -179,6 +193,49 @@ footer .footer-spece{
     width: 50px;
 }
 
+.title-1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-3{
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-4{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-5{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-6{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-7{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #003164;
+    text-decoration: none;
+}
 
 
 
