@@ -762,3 +762,7 @@ a.btn-c:before{
 .modaal-close:hover:before{
 	background:#666;
 }
+
+.canvasOverlay::-webkit-scrollbar{
+    display: none;
+}
