@@ -757,3 +757,13 @@ a.btn-c:before{
 .ytp-chrome-top .ytp-show-cards-title{
     display: none;
 }
+
+.fixed_btn{
+    height: 28%;
+    position: fixed;
+    bottom: 28%; 
+    left: 0.8%;
+    z-index: 100;
+    transition-delay: 9s;
+    animation: fadeIn 1s ease 10s 1 normal backwards;
+}
