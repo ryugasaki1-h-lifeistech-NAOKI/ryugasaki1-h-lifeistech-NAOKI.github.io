@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/*スクロールバー*/
+::-webkit-scrollbar{
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;}
+ 
+::-webkit-scrollbar-thumb{
+    background: #767676;
+    border-radius: 6px;}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(135, 135, 135, 0.505);
+    border-radius: 65px;}
+
+/*上の隙間をなくしてる*/
+*{
+    margin: 0;
+    padding: 0;}
+
+/*ページ左上のメインボタン*/
+.top-top{
+    height: 100px;
+    margin-top: 2px;
+    margin-left: 25px;
+    float: left;}
+
+/*ヘッダー全体*/
+header{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    background-color: #f1c21e;
+    font-family: Arial;}  
+
+/*ヘッダーのメニュー*/
+header .top-list{
+    line-height: 40px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 35px;
+    list-style: none;
+    color: #ffffff;}
+
+/*ヘッダーのメニューの色変え(青→白)*/
+.t-m{
+    color: inherit;
+    text-decoration: none;}
+
+/*ヘッダーの開いてるページのメニュー*/
+header .top-list-item-1{
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+    border-bottom: 2px solid #ffffff;
+    position: relative;}
+
+/*ヘッダーの開いてるページ以外のメニュー①*/
+header .top-list-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+    position: relative;}
+
+/*ヘッダーの開いてるページ以外のメニュー②*/
+header .top-list-item::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)}
+
+/*ヘッダーの開いてるページ以外のメニュー③*/    
+header .top-list-item:hover::before{
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)}
+
+/*SDGS色のバー*/
+.sdgs-bar{
+    height: 5%;
+    margin-top: 3px;
+    padding: 0;
+    width: 100%;
+    vertical-align: top;}
+
+/*フッター全体*/
+footer{
+    width: 100%;
+    background-color: #f1c21e;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+/*フッターのメニューを並べてる*/
+ul.footer-menu li{
+    display: inline;}
+
+/*フッターのメニューの色変え*/
+.f-m{
+    color: inherit;
+    text-decoration: none;}
+
+/*フッターのメニューと©の隙間*/
+footer .footer-spece{
+    font-size: 1px;}
+
+/*ホームタイトル*/
+.main-title-1{
+    font-size: 24px;
+    color: #6e4d00;
+    text-align: center;
+    font-family: MS Mincho;}
+
+/*404の写真*/
+.picture-404{
+    text-align: center;
+    width: 25%;}
+
+/*トップに戻るボタン*/
+a.btn--top{
+    color: #6e4d00;
+    background-color: #ffdb58;}
+  
+a.btn--top:hover{
+    color: #6e4d00;
+    background: #ffdb58;}
+  
+a.btn--top.btn--cubic{
+    border-bottom: 5px solid #ffd43b;}
+  
+a.btn--top.btn--cubic:hover{
+    margin-top: 3px;
+    border-bottom: 2px solid #ffd43b;}
+  
+a.btn-c{
+    font-size: 2rem;
+    position: relative;
+    padding: 1.5rem 3rem 1.5rem 2rem;
+    border-radius: 100vh;}
+
+a.btn-c:before{
+    font-size: 1.6rem;
+    line-height: 1;
+    position: absolute;
+    top: calc(50% - .8rem);
+    margin: 0;
+    padding: 0;}
+
+.btn,a.btn,button.btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #6e4d00;
+    border-radius: 0.5rem;
+    font-family: MS Mincho;}
+
+.karamu-share{
+    display: inline;}
+
+.share-icon{
+    width: 50px;}
