@@ -124,7 +124,7 @@ footer .footer-spece{
 .main-title-1{
     font-size: 75px;
     color: #ffffff;
-    font-family: 'SimSun','sans-serif';
+    font-family: 'Noto Serif KR', serif;
     bottom: 0;
     text-align: center;
     animation: fadein 4s ease-out forwards;}
@@ -166,22 +166,22 @@ footer .footer-spece{
 
 .title-1{
     font-size: 45px;
-    font-family: 'SimSun','sans-serif';
+    font-family: 'Noto Serif KR', serif;
     text-align: center;}
 
 .title-2{
     font-size: 30px;
-    font-family: 'SimSun','sans-serif';
+    font-family: 'Noto Serif KR', serif;
     text-align: center;}
 
 .title-3{
     font-size: 26px;
-    font-family: 'SimSun','sans-serif';
+    font-family: 'Noto Serif KR', serif;
     text-align: center;}
 
 .title-4{
     font-size: 20px;
-    font-family: 'SimSun','sans-serif';
+    font-family: 'Noto Serif KR', serif;
     text-align: center;}
 
 .tell{
@@ -247,7 +247,7 @@ a.btn-c:before{
     color: #6e4d00;
     border-radius: 0.5rem;
     border-radius: 100vh;
-    font-family: 'SimSun','sans-serif';}
+    font-family: 'Noto Serif KR', serif;}
 
 /*========= ページトップのためのCSS ===============*/
 
